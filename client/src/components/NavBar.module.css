@@ -1,0 +1,47 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    padding-top: 5px ;
+    background-color: #e2e2e2;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.15);   
+}
+
+.img {
+    align-items: center;
+    width: 25px;
+    padding-left: 5px;
+    transition: 0.5s;
+}
+
+.img:hover {
+    width: 30px;
+}
+
+
+.container nav{
+    display: flex;
+    flex-direction: row;
+    font-family:"Poppins", sans-serif;
+    font-weight: bold;
+    padding-left: 920px;
+    padding-top: 15px;  
+}
+
+.container nav div {
+    padding-right: 20px ;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;  
+  
+}
+
+.container nav span {
+    color: #000;
+    font-size: 12px;
+    padding-right: 5px;
+   
+}
+
+.container nav span:hover {
+    color: #464646;
+}

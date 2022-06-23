@@ -1,0 +1,30 @@
+
+
+.container {
+  align-items: center;
+  margin-left: 2.1%;;
+}
+.containerCards {
+  display: inline-grid;
+  grid-template-columns: 100px 120px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.containerError {
+  margin-top: 2%;
+  margin-left: 25%;
+}
+
+.containerError p{
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+  font-weight: bolder;
+}
+.link {
+  text-decoration: none;
+}
+.containerFilter {
+  padding-top: 10px;
+}
+
+

@@ -1,0 +1,39 @@
+.landing{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('../assets/LandingOp2.png');
+    background-size:cover ;
+    background-attachment: fixed;
+    background-repeat: no-repeat;   
+}
+
+.btn {
+  position: relative;
+  display: inline-block;
+  padding: 15px 30px;
+  color: rgb(255, 255, 255);
+  letter-spacing: 4px;
+  font-size: 24px;
+  text-decoration: none;
+  overflow: hidden;
+  transition: 0.2s;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+}
+
+.btn:hover {
+    color: #000;
+    font-size: 27px;
+    background-color: #fbff00;
+    box-shadow: 0 0 10px #fbff00, 0 0 40px
+    #fbff00, 0 0 80px #fbff00;
+    border-radius: 50%;
+}
+
+
+
+
+
